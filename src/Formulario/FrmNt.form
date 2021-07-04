@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="LblNotasCrtAno2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="LblCalUno1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblTIC1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblTolg1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="TxtTeologia" alignment="0" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="TxtTIC" min="-2" pref="45" max="-2" attributes="0"/>
+                                  <Component id="TxtCalUno" min="-2" pref="45" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="LblDesBD1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LblPOO1" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LblCalDos1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="TxtCalDos" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="TxtPOO" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                                          <Component id="TxtDBD" alignment="1" min="-2" pref="45" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="LblNotasQntAno1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="LblSexo" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="ChkBxMasculino" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="ChkBxFem" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="ChkBxOtro" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="LblUni" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="CmbUni" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="LblCarrera" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="CmbCarrera" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="LblCedula" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="TxtCedula" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="LblNombreAlum" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane3" alignment="0" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="LblMstMatEv1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane8" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="LblMstNtCrt1" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                      <Component id="BtnRegistro" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jScrollPane7" min="-2" pref="100" max="-2" attributes="0"/>
+                                  <Component id="LblMstNtQnt1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CmbUni" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblCarrera" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CmbCarrera" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblUni" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ChkBxMasculino" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ChkBxFem" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ChkBxOtro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblSexo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="66" max="-2" attributes="0"/>
+                  <Component id="LblNombreAlum" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TxtCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblCedula" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblNotasCrtAno2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblNotasQntAno1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TxtCalUno" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblCalUno1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblCalDos1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtCalDos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TxtPOO" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtTIC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblTIC1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblPOO1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TxtTeologia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblTolg1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblDesBD1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TxtDBD" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="LblMstMatEv1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblMstNtCrt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="LblMstNtQnt1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane7" min="-2" pref="99" max="-2" attributes="0"/>
+                  <Component id="jScrollPane8" min="-2" pref="99" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="99" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="BtnRegistro" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TxtAreaNombreAlum">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="LblCarrera">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Carrera"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CmbUni">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="UCA"/>
+            <StringItem index="1" value="UAM"/>
+            <StringItem index="2" value="UNI"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="CmbCarrera">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="Ingenier&#xed;a Civil"/>
+            <StringItem index="1" value="Ingenier&#xed;a Industrial"/>
+            <StringItem index="2" value="Ingenier&#xed;a en Sistemas"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtCedula">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblCedula">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe9;dula:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ChkBxMasculino">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Masculino"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ChkBxMasculinoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ChkBxFem">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Femenino"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="ChkBxOtro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Otro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblSexo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sexo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblNombreAlum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombre del alumno:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblUni">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Universidad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblMstMatEv1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Materias:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblMstNtCrt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cuarto A&#xf1;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblMstNtQnt1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Quinto A&#xf1;o:"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="LstMatEvl">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane8">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="LstNtCrtAn">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="LstQntAn">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="0"/>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="TxtTeologia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblTolg1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Teolog&#xed;a:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblDesBD1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Desarrollo BD:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtDBD">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblTIC1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="TIC:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtTIC">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TxtTICActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblPOO1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="POO:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtPOO">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblCalDos1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;lculo 2:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtCalDos">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TxtCalUno">
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblCalUno1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe1;lculo 1:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblNotasCrtAno2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Notas Cuarto a&#xf1;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="LblNotasQntAno1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Notas Quinto a&#xf1;o:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="BtnRegistro">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Registro"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BtnRegistroActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
